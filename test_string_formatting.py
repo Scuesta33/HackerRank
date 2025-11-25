@@ -26,11 +26,11 @@ class TestPrintFormatted(unittest.TestCase):
         sys.stdout = sys.__stdout__
 
         expected = (
-            "1 1 1     1\n"
-            "2 2 2    10\n"
-            "3 3 3    11\n"
-            "4 4 4   100\n"
-            "5 5 5   101\n"
+        "  1   1   1   1\n"
+        "  2   2   2  10\n"
+        "  3   3   3  11\n"
+        "  4   4   4 100\n"
+        "  5   5   5 101\n"
         )
 
         self.assertEqual(captured_output.getvalue(), expected)
