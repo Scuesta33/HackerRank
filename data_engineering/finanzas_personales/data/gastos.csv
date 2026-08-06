@@ -1,0 +1,159 @@
+fecha,categoria,descripcion,monto,metodo_pago
+08/02/2026, Ocio,Videojuego,37.12,Efectivo
+22/02/2026,vivienda,Agua,$258.44,Efectivo
+2026-03-03,salud,Consulta medica,25.48,Tarjeta
+2026-02-25, Comida ,Cafeteria,46.59,Transferencia
+2026-02-06,transporte,Uber,$32.75,Efectivo
+2026-03-09,ocio,Cine,31.28,Transferencia
+2026-01-26,Otros,Varios,21.82,Transferencia
+2026-02-25, Ocio,Concierto,25.8,Tarjeta
+2026-01-21,otros,Regalo,55.25,Efectivo
+2026-01-03,Salud,Consulta medica,93.14,Transferencia
+2026-02-07, Ocio,Streaming,38.95,Transferencia
+2026-01-19,transporte,Transporte publico,25.0,Efectivo
+22/02/2026,EDUCACION,Curso online,30.28,Tarjeta
+27/02/2026,educacion,Curso online,193.76,Transferencia
+17/01/2026,Comida,Supermercado,9.41,Transferencia
+2026-01-14,Salud,Farmacia,$61.37,Tarjeta
+2026-01-13,Salud,Farmacia,39.69,Tarjeta
+2026-02-08,Comida,Delivery,57.91,Transferencia
+2026-03-27,Salud,Gimnasio,80.24,Efectivo
+2026-03-28,transporte,Transporte publico,16.42,Tarjeta
+2026-01-09,Vivienda,Agua,493.92,Transferencia
+2026-03-02,transporte,Gasolina,$38.01,Efectivo
+09/03/2026,educacion,Curso online,$121.68,Efectivo
+2026-01-18,vivienda,Luz,194.51,Transferencia
+24/01/2026,Otros,Varios,,Tarjeta
+23/03/2026,vivienda,Internet,268.62,Efectivo
+20/02/2026,educacion,Libros,148.93,Tarjeta
+11/01/2026,salud,Consulta medica,$40.57,Efectivo
+2026-02-13,EDUCACION,Curso online,208.04,Efectivo
+2026-03-23,EDUCACION,Matricula,$267.92,Transferencia
+2026-02-13,Comida,Cafeteria,37.55,Tarjeta
+18/02/2026,COMIDA,Restaurante,17.36,Efectivo
+2026-03-05,Comida,Cafeteria,32.63,Tarjeta
+26/03/2026,Vivienda,Alquiler,181.61,Efectivo
+2026-03-13,otros,Varios,6.32,Transferencia
+09/03/2026,vivienda,Agua,506.76,Tarjeta
+2026-01-12,transporte,Uber,18.96,Transferencia
+22/03/2026,vivienda,Internet,319.3,Efectivo
+2026-01-03,Otros,Varios,$5.88,Tarjeta
+2026-03-05,Educacion,Libros,$131.84,Efectivo
+2026-03-08,Transporte,Taxi,$22.65,Transferencia
+2026-01-11,Otros,Varios,46.46,Tarjeta
+2026-02-18,educacion,Matricula,109.28,Tarjeta
+2026-03-19,Comida,Delivery,52.58,Tarjeta
+2026-02-10,EDUCACION,Libros,$81.83,Transferencia
+2026-03-23,salud,Consulta medica,64.5,Tarjeta
+11/03/2026,Vivienda,Alquiler,58.68,Efectivo
+2026-03-15,Transporte ,Uber,23.4,Efectivo
+2026-02-02,otros,Regalo,$37.98,Efectivo
+2026-03-28, Ocio,Concierto,21.58,Tarjeta
+2026-03-23,Salud,Farmacia,37.51,Tarjeta
+11/03/2026,Ocio,Videojuego,61.82,Transferencia
+2026-03-24,Comida,Delivery,45.63,Transferencia
+2026-02-24,otros,Varios,89.74,Efectivo
+09/02/2026,Transporte,Taxi,27.44,Efectivo
+2026-01-16,EDUCACION,Libros,247.57,Transferencia
+2026-03-14, Comida ,Delivery,24.45,Transferencia
+16/02/2026,salud,Farmacia,71.07,Tarjeta
+2026-02-01,vivienda,Alquiler,560.89,Transferencia
+07/01/2026,Transporte,Uber,22.84,Efectivo
+2026-02-16,otros,Regalo,97.06,Efectivo
+2026-03-27,COMIDA,Cafeteria,$31.91,Efectivo
+2026-03-09,transporte,Uber,23.32,Transferencia
+2026-03-12,salud,Consulta medica,83.75,Transferencia
+2026-02-08,Transporte ,Transporte publico,7.67,Efectivo
+2026-02-26,Transporte ,Taxi,20.19,Transferencia
+23/01/2026,EDUCACION,Curso online,170.31,Transferencia
+2026-03-26,vivienda,Luz,243.78,Transferencia
+2026-02-24,vivienda,Internet,$503.33,Efectivo
+2026-02-08,EDUCACION,Curso online,278.31,Efectivo
+2026-01-02,Otros,Suscripcion,81.48,Efectivo
+2026-01-28,ocio,Videojuego,13.0,Tarjeta
+2026-02-20,Transporte,Transporte publico,25.47,Tarjeta
+2026-02-27,Otros,Varios,44.81,Tarjeta
+2026-01-18,Educacion,Matricula,32.37,Tarjeta
+09/03/2026,educacion,Curso online,$121.68,Efectivo
+2026-01-14,EDUCACION,Matricula,15.48,Transferencia
+2026-01-28,comida,Supermercado,$39.39,Transferencia
+02/01/2026,comida,Restaurante,52.28,Transferencia
+2026-03-21,COMIDA,Cafeteria,50.77,Efectivo
+2026-02-25,salud,Consulta medica,74.25,Efectivo
+2026-02-19,Otros,Regalo,99.05,Transferencia
+2026-01-15,Transporte ,Gasolina,3.12,Transferencia
+2026-01-12, Comida ,Restaurante,47.91,Tarjeta
+2026-01-28,Educacion,Libros,$90.24,Tarjeta
+22/01/2026,transporte,Taxi,$29.5,Efectivo
+2026-03-28, Ocio,Concierto,21.58,Tarjeta
+2026-03-24,ocio,Streaming,42.05,Efectivo
+2026-01-11,COMIDA,Cafeteria,$47.41,Transferencia
+28/01/2026,Otros,Regalo,86.32,Tarjeta
+04/01/2026,Educacion,Matricula,$22.13,Transferencia
+2026-03-25,salud,Farmacia,49.82,Transferencia
+2026-02-09,educacion,Matricula,190.54,Efectivo
+2026-02-17,ocio,Streaming,30.27,Efectivo
+2026-01-26,otros,Regalo,$48.23,Transferencia
+28/01/2026,Vivienda,Agua,$248.9,Tarjeta
+2026-01-04,comida,Restaurante,9.14,Efectivo
+2026-02-06,Ocio,Videojuego,29.76,Transferencia
+09/02/2026,COMIDA,Delivery,25.85,Efectivo
+2026-03-08,Ocio,Cine,61.77,Efectivo
+2026-02-16,otros,Suscripcion,15.03,Transferencia
+2026-03-09,Transporte ,Transporte publico,26.1,Efectivo
+19/03/2026,salud,Consulta medica,$49.49,Efectivo
+2026-03-28,Otros,Varios,$67.6,Efectivo
+18/03/2026,Transporte ,Transporte publico,12.27,Tarjeta
+2026-03-27,Transporte,Transporte publico,35.18,Tarjeta
+2026-01-27,Transporte,Taxi,36.98,Efectivo
+2026-01-04,educacion,Libros,209.29,Efectivo
+2026-02-11,Salud,Gimnasio,83.58,Transferencia
+2026-03-21, Comida ,Restaurante,$40.55,Tarjeta
+2026-01-16,Salud,Consulta medica,,Efectivo
+26/03/2026,comida,Delivery,$30.59,Transferencia
+2026-02-26,Salud,Gimnasio,109.13,Transferencia
+2026-03-08,Educacion,Libros,156.84,Transferencia
+2026-02-28,ocio,Concierto,25.68,Transferencia
+2026-02-23,transporte,Gasolina,10.92,Efectivo
+2026-02-11,Vivienda,Luz,101.36,Tarjeta
+2026-02-19,educacion,Libros,293.33,Tarjeta
+13/02/2026,EDUCACION,Curso online,155.9,Efectivo
+2026-01-03,Ocio,Videojuego,71.31,Transferencia
+2026-01-21,Transporte ,Gasolina,21.47,Transferencia
+2026-03-12,Ocio,Cine,15.46,Efectivo
+2026-02-06,transporte,Uber,$32.75,Efectivo
+2026-03-08,vivienda,Internet,406.21,Tarjeta
+02/03/2026,comida,Restaurante,48.27,Transferencia
+2026-01-13,ocio,Streaming,79.65,Tarjeta
+2026-01-09,Transporte,Gasolina,22.52,Transferencia
+2026-01-13,COMIDA,Supermercado,25.99,Transferencia
+2026-01-11,comida,Supermercado,$6.16,Tarjeta
+2026-02-04, Ocio,Concierto,$61.49,Efectivo
+2026-03-04,Educacion,Curso online,154.73,Tarjeta
+18/02/2026,COMIDA,Restaurante,17.36,Efectivo
+2026-01-02,Transporte,Gasolina,14.41,Transferencia
+2026-02-02,Transporte,Uber,12.34,Transferencia
+23/03/2026,transporte,Transporte publico,14.08,Efectivo
+2026-03-26,otros,Varios,86.17,Transferencia
+18/02/2026,Vivienda,Agua,321.59,Tarjeta
+2026-02-02,Comida,Restaurante,18.47,Transferencia
+09/03/2026,salud,Gimnasio,$30.88,Transferencia
+2026-01-19,vivienda,Internet,$309.97,Efectivo
+2026-02-20,Transporte,Transporte publico,25.47,Tarjeta
+2026-03-08,salud,Consulta medica,55.52,Efectivo
+2026-01-16,ocio,Cine,9.4,Tarjeta
+18/03/2026,otros,Varios,48.89,Tarjeta
+2026-03-20,Vivienda,Luz,286.61,Efectivo
+04/01/2026,COMIDA,Restaurante,45.83,Transferencia
+2026-01-18,Educacion,Matricula,32.37,Tarjeta
+19/01/2026,comida,Restaurante,28.21,Transferencia
+2026-02-25,Vivienda,Internet,278.9,Efectivo
+2026-02-21,Transporte,Taxi,35.13,Efectivo
+20/02/2026,Ocio,Streaming,58.49,Transferencia
+25/02/2026,Comida,Supermercado,57.65,Transferencia
+2026-01-09,COMIDA,Delivery,$14.82,Transferencia
+2026-01-22,Transporte ,Gasolina,$12.88,Tarjeta
+27/02/2026, Ocio,Streaming,$13.9,Transferencia
+2026-01-08,otros,Varios,87.32,Efectivo
+2026-03-04,Educacion,Curso online,154.73,Tarjeta
+2026-03-09,Transporte ,Transporte publico,26.1,Efectivo
