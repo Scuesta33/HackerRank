@@ -30,6 +30,7 @@ df["monto"] = df["monto"].str.replace("$", "", regex=False).astype(float)
 df["fecha"] = pd.to_datetime(df["fecha"], format="mixed", dayfirst=True)
 df = df.dropna(subset=["monto"])
 df = df.drop_duplicates()
+print(df.info())
 # ============================================================
 # PASO 4: Cargar el resultado limpio a SQLite
 # ============================================================
