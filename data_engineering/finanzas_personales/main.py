@@ -36,11 +36,28 @@ print(df.info())
 # ============================================================
 # TODO: guarda df en una base "finanzas.db", tabla "gastos"
 # pista: sqlite3.connect(...) + df.to_sql(...)
-
+conn = sqlite3.connect("finanzas.db")
+df.to_sql("gastos", conn, if_exists="replace", index=False)
+conn.close()
 
 # ============================================================
 # PASO 5: Consultas SQL sobre los datos ya limpios
 # ============================================================
 # TODO: total gastado por categoria
+conn = sqlite3.connect("finanzas.db")
+total_por_categoria = pd.read_sql("""
+    SELECT categoria, SUM(monto) AS total
+    FROM gastos
+    GROUP BY categoria
+    ORDER BY total DESC
+""", conn)
+print(total_por_categoria)
 # TODO: mes con mayor gasto total
+gasto_por_mes = pd.read_sql("""
+   SELECT strftime('%Y-%m', fecha) AS mes, SUM(monto) AS total
+   FROM gastos
+   GROUP BY mes
+   ORDER BY total DESC
+""", conn)
+print(gasto_por_mes)
 # TODO: gasto promedio por metodo de pago
