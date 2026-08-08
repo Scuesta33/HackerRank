@@ -61,3 +61,10 @@ gasto_por_mes = pd.read_sql("""
 """, conn)
 print(gasto_por_mes)
 # TODO: gasto promedio por metodo de pago
+promedio_por_metodo = pd.read_sql("""
+   SELECT metodo_pago, AVG(monto) AS promedio
+   FROM gastos
+   GROUP BY metodo_pago
+""", conn)
+print(promedio_por_metodo)
+
