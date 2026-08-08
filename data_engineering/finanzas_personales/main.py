@@ -25,8 +25,11 @@ print(df.isna().sum())
 # TODO: convierte "fecha" a datetime (hay dos formatos mezclados)
 # TODO: decide qué hacer con los montos faltantes (eliminar fila? poner 0? la media?)
 # TODO: elimina filas duplicadas
-
-
+df["categoria"] = df["categoria"].str.strip().str.title()
+df["monto"] = df["monto"].str.replace("$", "", regex=False).astype(float)
+df["fecha"] = pd.to_datetime(df["fecha"], format="mixed", dayfirst=True)
+df = df.dropna(subset=["monto"])
+df = df.drop_duplicates()
 # ============================================================
 # PASO 4: Cargar el resultado limpio a SQLite
 # ============================================================
