@@ -1,10 +1,31 @@
-def contar_paises_distintos(lista_de_paises):
-    """Devuelve cuántos países distintos hay en la lista."""
-    return len(set(lista_de_paises))
+def limpiar_registro(registro):
+    country = registro.get("country")
+    year = registro.get("year")
+    gdp = registro.get("gdp")
 
+    if country is None or year is None or gdp is None:
+        return None
+    try:
+        anio = int(year)
+        gdp = float(gdp)
+    except ValueError:
+        return None
 
-if __name__ == "__main__":
-    totalStamps = int(input("Cuántos sellos tienes?: "))
-    paises = [input("País: ").strip() for _ in range(totalStamps)]
-    print("Países distintos:", contar_paises_distintos(paises))
+    resultado = {
+        "pais": country.upper(),
+        "anio": anio,
+        "pib_per_capita": gdp
+    }
+    return resultado
 
+def transformar_datos(datos):
+    datos_limpios = []
+
+    for registro in datos:
+        limpio = limpiar_registro(registro)
+
+        if limpio is None:
+            continue
+
+        datos_limpios.append(limpio)
+    return datos_limpios
